@@ -8,7 +8,7 @@ package Concepts.Java8;
  *
  */
 interface Demo{
-	//int num = 8 // interface variable acted as final variable can't be used sub class
+	int num = 8; // interface variable acted as final variable can't be used sub class
 	void show();
 	static void abc() { // static method
 		System.out.println("ABC Printed");
@@ -18,7 +18,8 @@ class B implements Demo{
 
 	@Override
 	public void show() {
-		System.out.println(" show");
+		int a = num+1;
+		System.out.println(a + " show");
 	}
 	
 	static void abc() {
@@ -29,5 +30,6 @@ public class StaticInterface {
     public static void main(String[] args) {
 		Demo b = new B();
 		Demo.abc();
+		b.show();
 	}
 }
