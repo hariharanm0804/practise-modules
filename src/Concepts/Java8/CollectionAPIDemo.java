@@ -45,8 +45,8 @@ public class CollectionAPIDemo {
 //    		System.out.print(it.next());    		
 //    	}
     	
-//    	Set<Integer> valueSet = new HashSet<>();
-    	Set<Integer> valueSet = new TreeSet<>();
+    	Set<Integer> valueSet = new HashSet<>();
+//    	Set<Integer> valueSet = new TreeSet<>();
     	valueSet.add(78);
     	valueSet.add(34);
     	valueSet.add(98);

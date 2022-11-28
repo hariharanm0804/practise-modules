@@ -38,5 +38,6 @@ public class ConstructorDemo {
 		System.out.println(sub.number);
 		System.out.println(sub1.number);
 		System.out.println(sub2.number);
+		System.out.println("s"+(100 +100));
 	}
 }
